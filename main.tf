@@ -10,7 +10,7 @@ module "dmz-staging" {
   vm_node_size    = "2"
   tag             = "dmz-staging-test"
   node_env        = "staging"
-  internal_domain = "dmz-staging.ramson.io"
+  internal_domain = "dmz-staging.xxxxxxxx.io"
   internal_record = "dmz-staging-test"
   vnet_name       = "${rg_name}-virtual-network"
 
